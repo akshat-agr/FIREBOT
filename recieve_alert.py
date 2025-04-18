@@ -7,10 +7,10 @@ from email.mime.text import MIMEText
 UDP_IP = "0.0.0.0"
 UDP_PORT = 12345
 
-# Email credentials
+# Email credentials( CHANGE MAIL AND PASSWORD)
 sender_email = "agrawalakshat1204@gmail.com"
 receiver_email = "akshattanmay2004@gmail.com"
-password = "arfd hbcr gkhm fkdj"
+password = "**** **** **** ****" 
 
 def send_alert(subject, html_content):
     message = MIMEMultipart("alternative")
